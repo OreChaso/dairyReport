@@ -23,7 +23,7 @@ $pdo = dbc();
 $target_date = date('Y-m-d');
 
 //モーダルの自動表示判定
-$modal_view_flg = true;
+$modal_view_flg = false;
 
 if($_SERVER['REQUEST_METHOD'] == 'POST') {
   //日報登録処理
